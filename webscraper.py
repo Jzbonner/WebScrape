@@ -20,7 +20,7 @@ f = open(filename, "w")
 headers = "brand, product_name, shipping\n"
 f.write(headers)
 
-# grabs brand of video card
+# grabs brand of video card 
 for container in containers : 
     brand = container.div.div.a.img["title"]
 
